@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Izza Fatima</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+</head>
+<body>
+
+    <!-- keep the input label for dar mode toggle outside because otherwise it wouldnt be able to change the style of the document-->
+    <input type="checkbox" id="theme-toggle" class="theme-checkbox">
+    
+    <div class="page-wrapper">
+        
+        <nav class="navbar">
+            <div class="logo">IF.</div>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact">Contact</a>
+                <label for="theme-toggle" class="theme-label">
+                </label>
+            </div>
+        </nav>
+
+        <!--Animationnn-->
+        <header class="hero">
+            <div class="hero-content fade-in-up">
+                <div class="image-container">
+                    <img src="cv_picture.jpeg" alt="izza profile picture" class="profile-pic">
+                </div>
+                <h1>Izza Fatima</h1>
+                <h2>Web & App Developer</h2>
+                <p>Building accessible and performant applications.</p>
+                <a href="Izza_Fatima_CV.pdf"  id="btn-download" class="btn btn-primary" download>Download CV</a>
+            </div>
+        </header>
+
+        <main>
+            <section id="about" class="section">
+                <h3 class="section-title">About Me</h3>
+                <p class="section-text">
+                    I am a passionate developer with 3 years of experience in building modern web interfaces. 
+                    I specialize in HTML, CSS, JavaScript, XML and Java with a focus on responsive design and user experience.
+                </p>
+            </section>
+
+            <section id="skills" class="section alt-bg">
+                <h3 class="section-title">Skills</h3>
+                <div class="skills-container">
+                    <div class="skill-tag">HTML</div>
+                    <div class="skill-tag">XML</div>
+                    <div class="skill-tag">CSS</div>
+                    <div class="skill-tag">JavaScript</div>
+                    <div class="skill-tag">Java</div>
+                    <div class="skill-tag">Python</div>
+                    <div class="skill-tag">React</div>
+                    <div class="skill-tag">UI/UX Design</div>
+                </div>
+            </section>
+
+            <section id="education" class="section">
+                <h3 class="section-title">Education</h3>
+                <div class="card-grid">
+                    <div class="card slide-in-left">
+                        <h4>Bachelors in Computer Science</h4>
+                        <span class="date">2023 - 2027</span>
+                        <p class="institution">Fast NUCES Lahore</p>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <section id="experience" class="section alt-bg">
+                <h3 class="section-title">Projects & Experience</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                             <h4>Software Development</h4>
+                             <span class="company">Development Projects | 2023 - Present</span>
+                            <ul>
+                                <li>Built a cat adoption platform with user registration and adoption management.</li>
+                                <li>Developed an online grocery system with product listing and order processing.</li>
+                                <li>Created a task management app with priority tracking and reminders.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                             <h4>UI/UX Projects</h4>
+                             <span class="company">Design Projects | 2023 - Present</span>
+                            <ul>
+                                <li>Designed complete UI/UX for a travel application.</li>
+                                <li>Focused on usability, accessibility, and responsive layouts.</li>
+                                <li>Created wireframes and visual prototypes for user flows.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    
+                    
+                </div>
+            </section>
+
+            <section id="contact" class="section">
+                <h3 class="section-title">Contact Me</h3>
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> fatimaizza656@gmail.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Lahore, Pakistan</p>
+                    </div>
+                    <form class="contact-form">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea rows="4" placeholder="Message"></textarea>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Izza Fatima. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
