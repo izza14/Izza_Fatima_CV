@@ -7,7 +7,8 @@ This is a personal CV/Resume website designed to showcase professional skills, e
 * HTML5
 * CSS
 
-## Live Link
+## Live 
+* https://izza-fatima-cv.vercel.app/
 
 
 ## Student Details
